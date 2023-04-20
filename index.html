@@ -1,20 +1,82 @@
 <!DOCTYPE html>
-<html lang="en" onclick="jump()">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flappy Bird</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" href="images/Flappy-Bird-Logo-PNG-File.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/tutorial.css">
+    <title>Tutorial</title>
 </head>
+
 <body>
-    <div id="game">
-        <div id="block"></div>
-        <div id="hole"></div>
-        <div id="character"><img  src="images/Flappy-Bird-Logo-PNG-File.png" alt=""></div>
+    <div class="containter">
+        <h1>Simple Flappy Bird - Tutorial</h1>
+    </div>
+    <div class="container-two">
+        <div class="vault">
+            <p>Iedereen kent wel Flappy bird, daarom gaan samen een simpel en eenvoudig game bouwen. <br>Door te klikken
+                met je muis kan je springen tussen de palen.</p>
+            <img class="image" src="images/Screenshot_1.jpg" alt="">
+            <h2>We hebben de volgende drie codetalen nodig:</h2>
+            <ul class="u-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </div>
+        <div class="vault-two">
+            <h2>Stap 1 - Mappen en bestanden</h2>
+            <p class="text">Een code-editor is nodig, daarom gebruiken <a href="https://code.visualstudio.com/">Visual
+                    Studio Code</a>. <br>Maak een nieuwe map aan op je bureaublad en geef als naam <strong>Flappy
+                    Bird</strong>.</p>
+                    <img src="images/Screenshot_2.jpg" alt="">
+            <p>Open het programma <a href="https://code.visualstudio.com/">Visual Studio Code</a> en open je gemaakte
+                folder <strong>Flappy Bird</strong>.</p>
+                <img src="images/VisualCode.jpg" alt="">
+            <p>Als programmeur moet je altijd duidelijk werken, bouw onderstaande mappen- en bestandenstructuur aan. Let op images is een map voor fotos en CSS is een map voor je main.css</p>
+            <p>Binnen de map <strong>images</strong> zit een foto van flappy bird. Je mag zelf op google zoeken wat jij
+                als foto wilt gebruiken.</p>
+            <p>Klik met je rechtermuis op <strong>index.html</strong>, daarna open je het met default browser. Je zal
+                dan een lege webpagina zien, dat is normaal!</p>
+                <img class="one" src="images/Screenshot_3.jpg" alt="">
+                <img class="two" src="images/Screenshot_4.jpg" alt="">
+            <h2>Stap 2 - HTML & CSS</h2>
+            <p class="text">Nuuuuuuu gaan we coderen zodat we af zijn van die witte webpagina.</p>
+            <p>Kopieer onderstaande code in jouw <strong>index.html</strong>-bestand. Sla dat bestand op.</p>
+            <iframe width="100%" height="300" src="//jsfiddle.net/khedadunayeva/d0psuqw4/1/embedded/html/dark/"
+                allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                <p>We hebben bij onze HTML-bestand een icon toegevoegd, je mag jouw foto gebruiken dat je zal gebruiken voor het vogeltje. De icon zorgt ervoor dat je een icon ziet bovenaan op je tablad</p>
+                <img src="images/Icon-screen.jpg" alt="">
+                <p>Bij id=character moet je je image-structuur wel aanpassen naar de naam van je foto.</p>
+                <img src="images/Images.jpg" alt="">
+            <p>Dit is een basis-structuur, we hebben een titel toegevoegd en wat je allemaal moet zien zoals het
+                vogeltje, palen etc...</p>
+            <p>Nu kan je de onderstaande code kopieëren in jouw <strong>main.css</strong>-bestand. Sla het bestand dan op.</p>
+            <iframe width="100%" height="300" src="//jsfiddle.net/khedadunayeva/d0psuqw4/3/embedded/css/dark/"
+                allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe> allowpaymentrequest
+            frameborder="0"></iframe>
+            <p>Nu vraag je je waarschijnlijk af "wat doe ik?". Met CSS kan je stijlen van je tekst aanpassen zoals:
+                kleur, achtergrond-kleur, lettertype en zelfs animaties.</p>
+            <p>Als alles goed is, moet je op je pagina zo er uit zien. Herlaad wel je pagina!</p>
+            <img src="images/Flappybird-photo.jpg" alt="">
+            <p>Je mag veranderen wat je maar wilt bv achtergrond-kleur.</p>
+            <h2>Stap 3 - Interactiviteit met Javascript</h2>
+            <p>Eerst en vooral moet je de link leggen naar het Javascript-bestand, dat doe je door een stuk code toe te
+                voegen zoals hieronder.</p>
+            <p>Nu mag je de onderstaande code kopieeren en plakken in je <strong>strong.js</strong>-bestand</p>
+            <iframe width="100%" height="300" src="//jsfiddle.net/khedadunayeva/d0psuqw4/3/embedded/js/dark/"
+                allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            <ul>Natuurlijk tijdens de workshop, worden alvast heel veel begrippen verklaard zoals:
+                <li>Variabelen: let & const</li>
+                <li>Functions(): functies</li>
+                <li>class {}: CSS</li>
+                <li>h1, h2, strong: tags HTML</li>
+            </ul>
+            <p>Kort uitleg: We hebben een jump() functie toegevoegd op onze HTML zodat het functie activeert wanneer je
+                ergens klikt. Meer uitleg tijdens de workshop.</p>
+        </div>
     </div>
 </body>
-<script src="script.js"></script>
+
 </html>

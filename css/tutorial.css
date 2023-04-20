@@ -1,0 +1,73 @@
+.containter {
+  text-align: center;
+
+  margin-top: 5rem;
+
+  font-family: cursive;
+
+  margin-bottom: 5rem;
+}
+
+.container-two {
+  background-color: green;
+}
+
+.vault p {
+  font-family: cursive;
+  margin: 2rem;
+  font-size: 1.2rem;
+  padding-top: 2rem;
+}
+
+.vault h2 {
+  font-family: cursive;
+
+  margin: 1.2rem;
+}
+
+.vault-two h2 {
+  font-family: cursive;
+
+  margin: 1.2rem;
+}
+
+.one {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 59%;
+    margin-bottom: 2rem;
+}
+
+.two {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 59%;
+}
+.vault-two img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 59%;
+}
+.vault-two p {
+  font-family: cursive;
+
+  font-size: 1.2rem;
+
+  margin: 2rem;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 59%;
+}
+
+.u-list li {
+  font-family: cursive;
+}
+
+.text {
+}
