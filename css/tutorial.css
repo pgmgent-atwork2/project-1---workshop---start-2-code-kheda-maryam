@@ -1,15 +1,13 @@
 .containter {
   text-align: center;
-
   margin-top: 5rem;
-
   font-family: cursive;
-
   margin-bottom: 5rem;
+  font-size: 2rem;
 }
 
 .container-two {
-  background-color: green;
+  background-color: rgb(64, 159, 64);
 }
 
 .vault p {
@@ -32,24 +30,24 @@
 }
 
 .one {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 59%;
-    margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 59%;
+  margin-bottom: 2rem;
 }
 
 .two {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 59%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 59%;
 }
 .vault-two img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 59%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 59%;
 }
 .vault-two p {
   font-family: cursive;
@@ -70,4 +68,12 @@
 }
 
 .text {
+}
+
+.vault-two ul {
+}
+.vault-two li {
+  margin-left: 2rem;
+
+  font-family: cursive;
 }
